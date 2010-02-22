@@ -1,5 +1,5 @@
+#summary Things to do !
 #labels Phase-Design
-#Things to do !
 
   * Better landscape screen support. The buttons grid dimensions should be defined in regard of the screen W/H ratio.
   * Have a true background service capable of keep tracking when the ui is gone, and connect back to the UI via notification system
