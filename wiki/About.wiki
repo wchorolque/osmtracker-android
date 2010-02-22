@@ -1,3 +1,0 @@
-#summary About OSMTracker for Android™
-
-= About =
