@@ -2,6 +2,8 @@
 #labels Featured
 
   * Doesn't support backgrounding: If you return to home screen, click on back, or receive a phone call, it will exit. Your track will still be saved, though.
+    * Side effect:  Settings screen doesn't work well when tracking ;-) Try to use it only when you're not currently tracking.
   * Doesn't support screen orientation: Works only in portrait mode.
   * On long tracks, the GPX export can be long and block the UI. GPX exports take about 1s per 1000 gps points on a HTC Magic.
   * Supports only 3GPP format for voice recording. This is a limitation of Android SDK which is unable to record in mp3. 
+ 
