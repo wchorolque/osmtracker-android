@@ -1,4 +1,5 @@
 #summary Changelog
+#labels Featured
 
   * *v0.2.1*
     * Added icons for all buttons
