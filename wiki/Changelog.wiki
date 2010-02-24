@@ -1,12 +1,16 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.2.2*
+    * Managed unavailability of SD card when starting tracking.
+    * Try some hacks to prevent voice recording problems.
+
   * *v0.2.1*
-    * Added icons for all buttons
+    * Added icons for all buttons.
   
   * *v0.2.0* (Never released)
-    * Added backgrounding ability: Service continues to track if UI is dismissed
-    * Minor UI changes in Preferences
+    * Added backgrounding ability: Service continues to track if UI is dismissed.
+    * Minor UI changes in Preferences.
   
   * *v0.1.0*
-    * Initial release
+    * Initial release.
