@@ -1,9 +1,15 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.2.3*
+    * Added a screen which display list of recorded waypoints.
+    * Fixed a bug in timestamp format in GPX file.
+    * Added a small notification when recording a waypoint.
+    * Minor bugs fixed.
+
   * *v0.2.2*
     * Managed unavailability of SD card when starting tracking.
-    * Try some hacks to prevent voice recording problems.
+    * Tried some hacks to prevent voice recording problems.
 
   * *v0.2.1*
     * Added icons for all buttons.
