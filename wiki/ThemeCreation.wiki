@@ -1,0 +1,36 @@
+#summary About custom theme creation
+
+= Prerequisites =
+
+  * Knowledge of Android SDK & dev tools - Sorry, theme creation is not user-friendly for the moment at is relies on the Android SDK theme framework.
+  * 9-patch graphic for button.
+  * 9-patch graphic + toggle on/off for the toggle button, if you're brave.
+
+= Background =
+
+The theme system relies on the Android theme framework, so if you've already made themes for other applications there is no particular difficulty.
+
+However, if it's your first theme creation as it was for me, there are some subtle things to know. The difficult part was to understand the general theme organisation:
+  * A theme files references styles
+    * Styles can reference a `drawable`, for example for background
+      * This `drawable` can be an image (PNG), but can also be an XML file ! XML files in this case are kind of "composite drawables" that allow to define different drawable depending of the state of the button, for example.
+      * There are several kind of XML files, the 2 interesting are `<selector>` and `<layer-list>`
+        * `<selector>` allows to specify multiple drawing depending on View attributes value (button state for example: has focus, is disabled, is pressed, etc.)
+        * `<layer-list>` allows to make a composite `drawable` by layering multiple image (or other XML files !)
+
+As far as I know this is not really documented, I had to go to Android sources to understand that.
+
+== The Theme file ==
+
+The theme file defines global Theme metadata, as some global colors and properties, but also defines a list of styles that composes the Theme. Let's take an example with the [http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/values/themes.xml default Android theme file]:
+{{{
+<resources>
+ <style name="Theme"> <!-- Name of the theme -->
+  <!-- Some global color and style attributes -->
+  <item name="colorForeground">@android:color/bright_foreground_dark</item>
+  ...
+
+  <!-- Some style definitions. In this case, it indicates that the style of the buttons is defined by the "Widget.Button" style, which is not in this file -->
+  <item name="buttonStyle">@android:style/Widget.Button</item>
+  ...
+}}}
