@@ -82,3 +82,16 @@ This principles applies for the Toggle button too, but as a toggle buttons displ
 }}}
 
 As you can see the backround uses a `btn_toggle_bg` drawable, which is also an XML file with the following contents: 
+
+http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/drawable/btn_toggle_bg.xml
+
+{{{
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+android:id/background" android:drawable="@android:drawable/btn_default_small" />
+    <item android:id="@+android:id/toggle" android:drawable="@android:drawable/btn_toggle" />
+</layer-list>
+}}}
+
+This files allows to compose a drawable, by using two layers: The first is a classic button, and the second is the small green on/off toggle led.
+
+In fact the system is recursive, because `btn_default_small` and `btn_toggle` are also XML files with `<selector>` tags !
