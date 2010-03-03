@@ -1,6 +1,10 @@
 #summary About custom theme creation
 #labels Phase-Implementation
 
+= About application custom theme creation =
+
+<wiki:toc max_depth="2" />
+
 = Prerequisites =
 
   * Knowledge of Android SDK & dev tools - Sorry, theme creation is not user-friendly for the moment at is relies on the Android SDK theme framework.
