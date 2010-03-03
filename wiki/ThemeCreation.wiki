@@ -70,3 +70,15 @@ http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/
 }}}
 
 This XML file is a "meta drawable", allowing to compose the button drawable by describing which drawable to use depending of the state of the button. Then, if you look for a bitmap named `btn_default_normal.9.png', you'll eventually find it.
+
+== The layer-list system ==
+
+This principles applies for the Toggle button too, but as a toggle buttons display a little bitmap to show its status (on/off), it's a little bit different. Let's have a look at the Toggle button style, as defined in the Styles file:
+{{{
+<style name="Widget.Button.Toggle">
+ <item name="android:background">@android:drawable/btn_toggle_bg</item>
+ <item name="android:textOn">@android:string/capital_on</item>
+ ...
+}}}
+
+As you can see the backround uses a `btn_toggle_bg` drawable, which is also an XML file with the following contents: 
