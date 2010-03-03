@@ -100,7 +100,7 @@ In fact the system is recursive, because `btn_default_small` and `btn_toggle` ar
 
 Now that you know as much as me, let's try to create a custom theme.
 
-= Create theme file =
+== Create theme file ==
 
 First, create a new theme file in `values/theme_custom.xml` for example. In this file, define the main `<style>` corresponding to your theme:
 {{{
@@ -112,7 +112,7 @@ First, create a new theme file in `values/theme_custom.xml` for example. In this
 
 The `parent` attributes are important, because they make your styles inherit of Android default ones. That's a good way of beginning, without having to redefine each single attribute of your styles.
 
-= Create styles definition =
+== Create styles definition ==
 
 Once your Theme is created, you have to create the corresponding styles definitions, like *Widget.Button* and *Widget.BUtton.Toggle* that you defined in your theme file.
 
@@ -129,3 +129,25 @@ You can create a `values/style_custom.xml` file, or insert your styles in the sa
 }}}
 
 As you can see, we've set a drawable as background for the button. This drawable will be an XML file with `<selector>` tag, allowing us to define a bitmap for each button state.
+
+== The composite button drawable file ==
+
+Create a file `drawable/theme_custom_btn` with the following contents:
+{{{
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_window_focused="false" android:state_enabled="true"	android:drawable="@drawable/theme_custom_btn_normal" />
+ <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/theme_custom_btn_focused" />
+ ...
+}}}
+
+That's in this file that you define the true bitmap that will be used, depending of the state of the buttons.
+
+== Create bitmaps ==
+
+Create 9-patch bitmaps, and place them in `drawable/theme_custom_btn_normal`, `drawable/theme_custom_btn_focused`, etc.
+
+= The end =
+
+I think the simple thing to do is to cut/past the high-contrast theme I made, and try to reproduce the thing.
+
+Feel free to contact me for any help !
