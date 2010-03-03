@@ -10,7 +10,7 @@
 
 The theme system relies on the Android theme framework, so if you've already made themes for other applications there is no particular difficulty.
 
-However, if it's your first theme creation as it was for me, there are some subtle things to know. The difficult part was to understand the general theme organisation:
+However, if it's your first application theme creation as it was for me, there are some subtle things to know. The difficult part was to understand the general theme organisation:
   * A theme files references styles
     * Styles can reference a `drawable`, for example for background
       * This `drawable` can be an image (PNG), but can also be an XML file ! XML files in this case are kind of "composite drawables" that allow to define different drawable depending of the state of the button, for example.
