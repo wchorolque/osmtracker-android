@@ -22,7 +22,10 @@ As far as I know this is not really documented, I had to go to Android sources t
 
 == The Theme file ==
 
-The theme file defines global Theme metadata, as some global colors and properties, but also defines a list of styles that composes the Theme. Let's take an example with the [http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/values/themes.xml default Android theme file]:
+The theme file defines global Theme metadata, as some global colors and properties, but also defines a list of styles that composes the Theme. Let's take an example with the default Android theme file:
+
+http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/values/themes.xml
+
 {{{
 <resources>
  <style name="Theme"> <!-- Name of the theme -->
@@ -39,4 +42,31 @@ So the theme file is just a "map" indicating which styles to apply to each compo
 
 == The Styles file ==
 
-The Styles files contain the style attributes like text color, background drawables, etc. for each defined style. Let's have a look at the [http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/values/styles.xml Android style file]:
+The Styles files contain the style attributes like text color, background drawables, etc. for each defined style. Let's have a look at the Android style file :
+
+http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/values/styles.xml
+
+{{{
+<resources>
+ ...
+ <style name="Widget.Button">
+  <item name="android:background">@android:drawable/btn_default</item>
+  <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+  ...
+ </style>
+}}}
+
+The style Widget.Button uses a `drawable` as background. But if you search for the corresponding PNG file (btn_default.9.png) in the `drawable/` directory you'll not find it ! Instead you'll find an XML file with the following contents:
+
+http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/drawable/btn_default.xml
+
+{{{
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_window_focused="false" android:state_enabled="true"
+        android:drawable="@drawable/btn_default_normal" />
+ <item android:state_window_focused="false" android:state_enabled="false"
+        android:drawable="@drawable/btn_default_normal_disable" />
+ ...
+}}}
+
+This XML file is a "meta drawable", allowing to compose the button drawable by describing which drawable to use depending of the state of the button. Then, if you look for a bitmap named `btn_default_normal.9.png', you'll eventually find it.
