@@ -34,3 +34,9 @@ The theme file defines global Theme metadata, as some global colors and properti
   <item name="buttonStyle">@android:style/Widget.Button</item>
   ...
 }}}
+
+So the theme file is just a "map" indicating which styles to apply to each component. The real styles attributes (color, drawables, etc.) is in the styles file.
+
+== The Styles file ==
+
+The Styles files contain the style attributes like text color, background drawables, etc. for each defined style. Let's have a look at the [http://android.git.kernel.org/?p=platform/frameworks/base.git;a=blob;f=core/res/res/values/styles.xml Android style file]:
