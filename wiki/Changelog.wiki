@@ -1,6 +1,12 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.3.0*
+    * Added an about screen.
+    * Added photo taking ability (Photo size limitation on pre 2.0 devices).
+    * Added theme system + custom high-contrast theme.
+    * Better management of hardware back-button.
+
   * *v0.2.3*
     * Added a screen which display list of recorded waypoints.
     * Fixed a bug in timestamp format in GPX file.
