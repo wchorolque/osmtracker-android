@@ -5,8 +5,8 @@
 
   * Better landscape screen support. The buttons grid dimensions should be defined in regard of the screen W/H ratio.
   * Implements a notification system while tracking in background.
-  * GPX save from database is long and blocks UI. Change that, maybe for an Asynctask, but must manage the fact that user starts another tracks while saving !
-    * Temporary solution could be a progress bar when exporting.
+  * Add a user notification while saving GPX track. Actually this is done in background without any indication for the user
+  * Add a shortcut to Android GPS settings, and maybe detect if the GPS is off when starting application
 
 =Done=
   * Have a true background service capable of keep tracking when the ui is gone, and connect back to the UI when it's launched again.
