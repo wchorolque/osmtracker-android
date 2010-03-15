@@ -7,6 +7,7 @@
   * Implements a notification system while tracking in background.
   * Add a user notification while saving GPX track. Actually this is done in background without any indication for the user
   * Add a shortcut to Android GPS settings, and maybe detect if the GPS is off when starting application
+  * Add user-configurable buttons
 
 =Done=
   * Have a true background service capable of keep tracking when the ui is gone, and connect back to the UI when it's launched again.
