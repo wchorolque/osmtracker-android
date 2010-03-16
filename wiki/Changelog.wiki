@@ -1,6 +1,11 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.3.1*
+    * Added a notification system when the application is still tracking in background.
+    * Added a GPS enabled check at startup.
+    * Minor UI changes in preferences screen.
+
   * *v0.3.0*
     * Added an about screen.
     * Added photo taking ability (Photo size limitation on pre 2.0 devices).
