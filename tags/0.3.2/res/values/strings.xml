@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic strings -->
+    <string name="app_name">OSMTracker for Android™</string>
+	<string name="app_short_name">OSMTracker</string>
+	<string name="app_version">0.3.2</string>
+	<string name="app_description">Inspired by OSMTracker on Windows Mobile, it allows you to track your journeys, mark significant way points (Voice recording available), export them in GPX format for later use with Open Street Map tools like JOSM.</string>
+	
+	<!-- TrackLogger -->
+	<string name="tracklogger_waiting_gps">Waiting for GPS fix to enable buttons...</string>
+	<string name="tracklogger_voicerec_title">Voice recording</string>
+	<string name="tracklogger_voicerec_text">Recording a {0}s audio clip.</string>
+	<string name="tracklogger_btnBack">Back</string>
+	<string name="tracklogger_tracked">Tracked: </string>
+	<string name="tracklogger_gps_disabled">GPS is disabled. Do you want to enable it ?</string>
+
+	<!-- Waypoint List -->
+	<string name="wplist">Waypoint List</string>
+	<string name="wplist_latitude">Lat: </string>
+	<string name="wplist_longitude">Long: </string>
+	<string name="wplist_elevation">Ele: </string>
+	
+	<!-- GPS Status & record bar -->
+	<string name="gpsstatus_record_trackoff">Start tracking.</string>
+	<string name="gpsstatus_record_trackon">Stop tracking</string>
+	<string name="gpsstatus_record_voicerec">Voice record</string>
+	<string name="gpsstatus_record_stillimage">Take picture</string>
+
+	<!-- Preferences -->
+	<string name="prefs_gps_os_settings">GPS settings</string>
+	<string name="prefs_gps_os_settings_summary">Display system GPS settings screen</string>
+	<string name="prefs_storage_dir">External storage (SD) directory</string>
+	<string name="prefs_storage_dir_summary"></string>
+	<string name="prefs_check_gps_startup">Check GPS at startup</string>
+	<string name="prefs_check_gps_startup_summary">Check if GPS is disabled at startup, and offer to enable it.</string>
+	<string name="prefs_ui">User interface</string>
+	<string name="prefs_ui_legacyback">Use legacy back soft-key</string>
+	<string name="prefs_ui_legacyback_summary">Use a back soft-button instead of the device back button</string>
+	<string name="prefs_voicerec_duration">Voice record duration</string>
+	<string name="prefs_voicerec_duration_seconds">seconds</string>
+	<string-array name="prefs_voicerec_durations">
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+	<string name="prefs_theme">Main screen graphic theme</string>
+	<string name="prefs_theme_summary">Application restart required to take effect</string>
+	<string-array name="prefs_theme_keys">
+		<item>OS default</item>
+		<item>OS default (Dark)</item>
+		<item>OS default (Light)</item>
+		<item>High contrast</item>
+	</string-array>
+	<string-array name="prefs_theme_values">
+		<item>android:style/Theme</item>
+		<item>android:style/Theme.Black</item>
+		<item>android:style/Theme.Light</item>
+		<item>me.guillaumin.android.osmtracker:style/HighContrast</item>
+	</string-array>
+	
+	<!-- Menu -->
+	<string name="menu_settings">Settings</string>
+	<string name="menu_waypointlist">Waypoints</string>
+	<string name="menu_about">About</string>
+	
+	<!-- Errors -->
+	<string name="error_externalstorage_not_writable">Unable to write to external storage.</string>
+	<string name="error_externalstorage_not_writable_hint">Please check ext. storage is correctly inserted and mounted.</string>
+	<string name="error_voicerec_failed">Voice recording has failed</string>
+	
+	<!-- GPX -->
+	<string name="gpx_track_name">Tracked with OSMTracker for Android™</string>
+	
+	<!-- Notification -->
+	<string name="notification_still_running">OSMTracker is still tracking</string>
+	<string name="notification_display_ui">Click to display OSMTracker</string>
+	
+	<!-- About screen -->
+	<string name="about">About</string>
+	<string name="about_text">For more information and issue report, please visite the project homepage:</string>
+	<string name="about_link"><a href="http://osmtracker-android.googlecode.com/">http://osmtracker-android.googlecode.com/</a></string>
+	
+	<!-- Notification -->
+	<string name="notification_ticker_text">OSMTracker is still running</string>
+	<string name="notification_title">OSMTracker is still running</string>
+	<string name="notification_text">Tap here to display main screen</string>
+</resources>
