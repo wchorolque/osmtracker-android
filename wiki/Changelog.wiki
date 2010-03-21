@@ -1,6 +1,9 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.3.2*
+    * Properly release GPS when quitting application.
+
   * *v0.3.1*
     * Added a notification system when the application is still tracking in background.
     * Added a GPS enabled check at startup.
