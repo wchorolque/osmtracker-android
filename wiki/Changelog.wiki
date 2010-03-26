@@ -1,6 +1,10 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.3.3*
+    * Added textual annotation.
+    * Added display current track screen.
+
   * *v0.3.2*
     * Properly release GPS when quitting application.
 
