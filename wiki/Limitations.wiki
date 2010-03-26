@@ -3,6 +3,7 @@
 
 =Limitations=
 
+  * The display track screen is not (yet) updated in real time.
   * Photo taken with the application are limited to 512x384 size on Android 1.x devices.
     * It's due to a bug in the Android built-in camera application on which OSMTracker relies (http://code.google.com/p/android/issues/detail?id=1480). Seems to be fixed in Android 2.x. 
   * Doesn't support screen orientation: Works only in portrait mode.
