@@ -1,5 +1,8 @@
 #summary Changelog
 #labels Featured
+  * *v0.3.4*
+    * Added accuracy/signal strenght info on GUI.
+    * Added accuracy and number of satellites in GPX file and corresponding setting.
 
   * *v0.3.3*
     * Added textual annotation.
