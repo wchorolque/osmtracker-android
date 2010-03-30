@@ -6,7 +6,6 @@
   * The display track screen is not (yet) updated in real time.
   * Photo taken with the application are limited to 512x384 size on Android 1.x devices.
     * It's due to a bug in the Android built-in camera application on which OSMTracker relies (http://code.google.com/p/android/issues/detail?id=1480). Seems to be fixed in Android 2.x. 
-  * Doesn't support screen orientation: Works only in portrait mode.
   * Supports only 3GPP format for voice recording.
     * This is a limitation of Android SDK which is unable to record in mp3. 
 
@@ -16,3 +15,5 @@
     * *Fixed in v0.2.x* : If you exit the UI while recording a track, it continues recording. Launch the UI again to get control back and stop tracking.
   * On long tracks, the GPX export can be long and block the UI. GPX exports take about 1s per 1000 gps points on a HTC Magic.
     * *Fixed in v0.2.x* : As the service is now really backgrounding, the export isn't done anymore in the UI Thread. However it can have side effects if you start a new track while the background service is still exporting the previous one...
+  * Doesn't support screen orientation: Works only in portrait mode.
+    * *Fixed in v0.3.5*, but some buttons needs redesign to fit better in landscape mode.
