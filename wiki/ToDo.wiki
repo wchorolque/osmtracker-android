@@ -3,9 +3,9 @@
 
 =To do=
 
-  * Better landscape screen support. The buttons grid dimensions should be defined in regard of the screen W/H ratio.
-  * Add a user notification while saving GPX track. Actually this is done in background without any indication for the user
-  * Add user-configurable buttons
+  * Better landscape screen support. Application can go landscape, but some buttons should be redesigned to fit better in landscape.
+  * Add a user notification while saving GPX track. Actually this is done in background without any indication for the user.
+  * Add user-configurable buttons.
 
 =Done=
   * Have a true background service capable of keep tracking when the ui is gone, and connect back to the UI when it's launched again.
