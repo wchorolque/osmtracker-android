@@ -1,0 +1,21 @@
+#summary How to read 3GP files in Windows/MacOS/Linux
+
+= Introduction =
+
+Unfortunately due to an Android SDK limitation, OSMTracker can only record audio file in [http://en.wikipedia.org/wiki/3GP 3GP] format. Here is how to play 3GP files under different OSes.
+
+== Windows ==
+
+  * Install [http://ffdshow-tryout.sourceforge.net/ ffmpeg-tryouts]
+  * Install [http://haali.su/mkv/ Haali Media Splitter]
+    * Be sure to enable MP4 support when installing HMS.
+
+After that you can play 3GP files with your preferred MediaPlayer.
+
+== Mac OS X ==
+
+QuickTime have native support for 3GP files.
+
+== Linux ==
+
+TODO
