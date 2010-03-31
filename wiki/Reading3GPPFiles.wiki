@@ -14,7 +14,7 @@ After that you can play 3GP files with your preferred MediaPlayer.
 
 == Mac OS X ==
 
-QuickTime have native support for 3GP files.
+!QuickTime have native support for 3GP files.
 
 == Linux ==
 
