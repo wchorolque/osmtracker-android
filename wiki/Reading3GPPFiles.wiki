@@ -10,7 +10,7 @@ Unfortunately due to an Android SDK limitation, OSMTracker can only record audio
   * Install [http://haali.su/mkv/ Haali Media Splitter]
     * Be sure to enable MP4 support when installing HMS.
 
-After that you can play 3GP files with your preferred MediaPlayer.
+After that you can play 3GP files with your preferred media player.
 
 == Mac OS X ==
 
