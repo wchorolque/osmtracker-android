@@ -19,3 +19,5 @@ After that you can play 3GP files with your preferred MediaPlayer.
 == Linux ==
 
 TODO
+
+  * Seems to be a way with [http://www.real.com/realplayer/linux RealPlayer] or certain gstreamer codecs...
