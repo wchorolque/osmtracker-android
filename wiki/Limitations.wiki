@@ -3,7 +3,6 @@
 
 =Limitations=
 
-  * The display track screen is not (yet) updated in real time.
   * Photo taken with the application are limited to 512x384 size on Android 1.x devices.
     * It's due to a bug in the Android built-in camera application on which OSMTracker relies (http://code.google.com/p/android/issues/detail?id=1480). Seems to be fixed in Android 2.x. 
   * Supports only 3GPP format for voice recording.
@@ -17,3 +16,5 @@
     * *Fixed in v0.2.x* : As the service is now really backgrounding, the export isn't done anymore in the UI Thread. However it can have side effects if you start a new track while the background service is still exporting the previous one...
   * Doesn't support screen orientation: Works only in portrait mode.
     * *Fixed in v0.3.5*, but some buttons needs redesign to fit better in landscape mode.
+  * The display track screen is not (yet) updated in real time.
+    * *Fixed in v0.4.0*
