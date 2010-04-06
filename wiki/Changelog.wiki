@@ -2,6 +2,7 @@
 #labels Featured
   * *v0.4.0*
     * Added support for user-customizable buttons layouts.
+    * Start/Stop tracking is now in the application menu.
     * Track display is now updated in real time.
     * Added Italian translation thanks to diego.pierotto.
 
