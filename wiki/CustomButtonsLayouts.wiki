@@ -4,7 +4,7 @@
 
 Since v0.4.0, OSMTracker can use user custom buttons layouts instead of default one. This allows the user to have the best button layout that suits his activities, and remove unused buttons.
 
-To choose a layout, use the corresponding setting in the !Settings screen.
+To choose a layout, use the corresponding setting in the Settings screen.
 
 = Layout files =
 
