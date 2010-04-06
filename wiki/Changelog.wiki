@@ -1,5 +1,9 @@
 #summary Changelog
 #labels Featured
+  * *v0.4.0*
+    * Added support for user-customizable buttons layouts.
+    * Track display is now updated in real time.
+    * Added Italian translation thanks to diego.pierotto.
 
   * *v0.3.5*
     * Various bugfixes.
