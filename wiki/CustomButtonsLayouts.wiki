@@ -4,6 +4,8 @@
 
 Since v0.4.0, OSMTracker can use user custom buttons layouts instead of default one. This allows the user to have the best button layout that suits his activities, and remove unused buttons.
 
+To choose a layout, use the corresponding setting in the !Settings screen.
+
 = Layout files =
 
 Each layout is defined in an XML file that should be in a {{{/layouts}}} directory inside the main OSMTracker storage dir. Each layout must be defined in XML, in UTF-8, and the filename should end with *.xml*.
@@ -12,6 +14,8 @@ Ex (Storage dir. defined in settings is /osmtracker):
   * /sdcard/osmtracker/layouts/cycling.xml
   * /sdcard/osmtracker/layouts/trek.xml
   * ...
+
+Each file matching these criteria will be listed as a potential layout in the settings screen. If the layout is invalid (incorrect XML syntax) the application will display a black screen instead of buttons. You can then go back to settings, and choose the default layout to have buttons visible again.
 
 = Defining a layout: XML syntax =
 
