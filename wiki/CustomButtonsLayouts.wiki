@@ -17,6 +17,8 @@ Ex (Storage dir. defined in settings is /osmtracker):
 
 Each file matching these criteria will be listed as a potential layout in the settings screen. If the layout is invalid (incorrect XML syntax) the application will display a black screen instead of buttons. You can then go back to settings, and choose the default layout to have buttons visible again.
 
+http://osmtracker-android.googlecode.com/svn/trunk/wiki/images/custom-layout/layout-list.png
+
 = Defining a layout: XML syntax =
 
 Each XML file must use the following syntax:
