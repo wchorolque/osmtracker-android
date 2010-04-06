@@ -1,0 +1,144 @@
+#summary How to define custom layouts
+
+= Introduction =
+
+Since v0.4.0, OSMTracker can use user custom buttons layouts instead of default one. This allows the user to have the best button layout that suits his activities, and remove unused buttons.
+
+= Layout files =
+
+Each layout is defined in an XML file that should be in a {{{/layouts}}} directory inside the main OSMTracker storage dir. Each layout must be defined in XML, in UTF-8, and the filename should end with *.xml*.
+
+Ex (Storage dir. defined in settings is /osmtracker):
+  * /sdcard/osmtracker/layouts/cycling.xml
+  * /sdcard/osmtracker/layouts/trek.xml
+  * ...
+
+= Defining a layout: XML syntax =
+
+Each XML file must use the following syntax:
+
+{{{
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+
+ <layout name="root">
+  <row>
+   <button type="..." label="..." (icon="...") (targetlayout="...") />
+   ...
+  </row>
+ </layout>
+
+ <layout name="...">
+  ...
+ </layout>
+
+</layout>
+}}}
+
+Each layout file must start with the {{{<layouts>}}} root tag, and define one or more {{{<layout>}}}. At least one layout with the name *root* must be defined.
+
+== <layout> ==
+
+A {{{<layout>}}} corresponds to a page of buttons. The first layout displayed is the layout with {{{name="root"}}}, so {{{<layout name="root">}}} is mandatory.
+
+Each layout can be subdivided in {{{<row>}}} of buttons:
+
+{{{
+<layout name="amenity">
+ <row>
+  <button ... />  
+  <button ... />
+ </row>
+ <row>
+  <button ... />
+  ...
+ </row>
+</layout>
+}}}
+
+== <button> ==
+
+This tag represents a button, and uses the following syntax: {{{<button type="..." label="..." (icon="...") (targetlayout="...") />}}}
+
+  * *type* is mandatory, and can be:
+    * _voicerec_ : For a voice recording button.
+    * _picture_ : For a picture button (Launches camera application).
+    * _textnote_ : For the text note button.
+    * _tag_ : For a classic tag button.
+    * _page_ : To allow navigation between button pages.
+      * A _page_ button must define a _targetlayout_ attribute, pointing to the layout to display. The value of _targetlayout_ must match the name of another layout.
+
+  * *label* is mandatory. It will be used as a label for the button, and as the waypoint tag name for tag buttons.
+
+  * *icon* is optional, and can be used to specify an icon for the button.
+    * The icon must be a relative filename with extension (Ex: "airport.png").
+    * Icons should be in the same directory as the layout file, and in PNG format.
+
+  * *targetlayout* is mandatory for a _page_ button. Its value must match an existing layout name.
+
+Some examples:
+
+{{{
+<button type="voicerec" label="Record a voice note" icon="mic.png" />
+<button type="tag" label="Airport" icon="airport.png" />
+<button type="tag" label="Power line" />
+<button type="page" label="Amenity..." targetlayout="amenity" />
+}}}
+
+= Full commented example =
+
+{{{
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+
+ <!-- Main layout, the first to be displayed to the user -->
+ <layout name="root">
+  <row>
+   <!-- 3 special action buttons -->
+   <button type="voicerec" label="Voice record" icon="voice.png" />
+   <button type="picture" label="Take picture" icon="camera.png" />
+   <button type="textnote" label="Text note" icon="text.png" />
+  </row>
+  <row>
+   <!-- "link" to 2 sub pages -->
+   <button type="page" label="Amenity" targetlayout="amenity" />
+   <button type="page" label="Restriction" icon="restriction.png" targetlayout="restriction" />
+  </row>
+  <row>
+   <!-- Standard tag buttons -->
+   <button type="tag" label="Airport" icon="airport.png" />
+   <button type="tag" label="Marina" />
+  </row>
+ </layout>
+
+ <!-- Amenity layout, will be displayed when clicking on "Amenity" previous defined button -->
+ <layout name="amenity">
+  <row>
+   <!-- Two standard tag buttons -->
+   <button type="tag" label="Bench" icon="button_amenity_bench.png" />
+   <button type="tag" label="Water" icon="button_amenity_water.png" />
+   <!-- A 2nd level page button -->
+   <button type="page" label="More amenities..." targetlayout="amenity_more" />
+   <!-- And a special action button -->
+   <button type="textnote" label="Text note" icon="text.png" />
+  </row>
+ </layout>
+
+ <!-- Restriction layout, will be displayed when clicking on "Restriction" previous defined button -->
+ <layout name="restriction">
+  <row>...</row>
+ </layout>
+
+ <!-- 2nd level Amenity page. Will be displayed when clicking on the "More amenities..." button on the Amenity page -->
+ <layout name="amenity_more">
+  <row>...</row>
+ </layout>
+
+</layouts>
+}}}
+
+= See also =
+
+Please see also the [http://code.google.com/p/osmtracker-android/source/browse/trunk/res/xml/default_buttons_layout.xml default layout] provided with application sources.
+
+(Please note that the "icon" attributes have no extension for this default layout because it's embedded in the application. User layouts *must* specify complete icon file names with extension).
