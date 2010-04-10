@@ -1,0 +1,17 @@
+#summary How to release a new version
+#labels Phase-Deploy
+
+Here are the steps to follow for releasing a new version:
+
+  # Gather changelog by looking at previous SCM commits.
+  # Update manifest (versionNumber, versionCode) and commit it.
+  # Tag version in SCM.
+  # Export signed application package.
+  # Upload new APK into market.
+    * Change screenshots if necessary.
+  # Update app. market description to include changelog.
+  # Publish update.
+  # Remove previous "featured" tag on latest GoogleCode download.
+  # Upload new APK into GoogleCode, using "featured" tag.
+  # Update ChangeLog page.
+  # Check on ToDo & Limitation pages in case some items have been addressed.
