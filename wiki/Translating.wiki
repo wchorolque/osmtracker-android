@@ -35,12 +35,12 @@ The files to translate are:
 Please use the *View raw file* link (bottom right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
 
 As an extra, you can also translate market descriptions for the app:
-  * _Inspired by OSMTracker/Windows Mobile, allows you to track your journeys, mark waypoints (Tags, voicerec, photo) and export them in GPX format for later use with OpenStreetMap tools like JOSM._
-  * _Track your journey with tags, voice & photo for importing into OpenStreetMap !_
+  * _Inspired by OSMTracker/Windows Mobile, allows you to track your journeys, mark waypoints (Tags, voicerec, photo) and export them in GPX format for later use with !OpenStreetMap tools like JOSM._
+  * _Track your journey with tags, voice & photo for importing into !OpenStreetMap !_
 
 = How to submit translated files ? =
 
-Open an issue, naming it "[your language] translation" and attach your translated files.
+Open an issue, naming it "_(your language)_ translation" and attach your translated files.
 For market text translations, simply copy/paste the translation into the issue, or put them in a text file and attach it along with the XML files.
 
 = How to update an existing translation ? =
