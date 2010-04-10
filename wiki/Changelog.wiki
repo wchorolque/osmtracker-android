@@ -1,5 +1,9 @@
 #summary Changelog
 #labels Featured
+  * *v0.4.1*
+    * Added some safeguard to prevent crash with photos on some devices.
+    * Added/updated translations: IT, DE, DA.
+
   * *v0.4.0*
     * Added support for user-customizable buttons layouts.
     * Start/Stop tracking is now in the application menu.
