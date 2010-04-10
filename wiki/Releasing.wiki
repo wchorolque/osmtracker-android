@@ -11,7 +11,7 @@ Here are the steps to follow for releasing a new version:
     * Change screenshots if necessary.
   # Update app. market description to include changelog.
   # Publish update.
-  # Remove previous "featured" tag on latest GoogleCode download.
-  # Upload new APK into GoogleCode, using "featured" tag.
-  # Update ChangeLog page.
-  # Check on ToDo & Limitation pages in case some items have been addressed.
+  # Remove previous "featured" tag on latest Google Code download.
+  # Upload new APK into Google Code, using "featured" tag.
+  # Update Changelog page.
+  # Check on ToDo & Limitations pages in case some items have been addressed.
