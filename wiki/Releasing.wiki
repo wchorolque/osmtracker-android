@@ -13,5 +13,5 @@ Here are the steps to follow for releasing a new version:
   # Publish update.
   # Remove previous "featured" tag on latest Google Code download.
   # Upload new APK into Google Code, using "featured" tag.
-  # Update Changelog page.
-  # Check on ToDo & Limitations pages in case some items have been addressed.
+  # Update [Changelog] page.
+  # Check on ToDo and [Limitations] pages in case some items have been addressed.
