@@ -1,0 +1,48 @@
+#summary How to translate the application
+
+= Introduction =
+
+Here is a quick guide to translating OSMTracker.
+
+Thanks to various contributors, OSMTracker has been translated in some languages. The application language will depend of the localization setting of your Android device.
+
+Translating the application means getting the original English XML files and replace each word by its translation in your favorite language.
+
+Please:
+  * Be sure to get the latest files from repository before adding/updating a translation.
+  * Be sure that you're editing your files in UTF-8 encoding.
+  * Use tabulations characters, instead of space for indenting.
+
+
+= Existing translations =
+
+The following translations already exists. Please use the corresponding issues to update them:
+
+|| *Language* || *Locale code ([http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes ISO 639-1])* || *Related issue* ||
+|| Italian || it || issue #20 ||
+|| Dannish || da || issue #26 ||
+|| German || de || issue #24 ||
+
+
+= Which files must be translated ? =
+
+The files to translate are:
+  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/xml/default_buttons_layout.xml
+  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/values/strings-preferences.xml
+  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/values/waypoints.xml
+  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/values/strings.xml
+
+Please use the *View raw file* link (bottom right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
+
+As an extra, you can also translate market descriptions for the app:
+  * _Inspired by OSMTracker/Windows Mobile, allows you to track your journeys, mark waypoints (Tags, voicerec, photo) and export them in GPX format for later use with OpenStreetMap tools like JOSM._
+  * _Track your journey with tags, voice & photo for importing into OpenStreetMap !_
+
+= How to submit translated files ? =
+
+Open an issue, naming it "[your language] translation" and attach your translated files.
+For market text translations, simply copy/paste the translation into the issue, or put them in a text file and attach it along with the XML files.
+
+= How to update an existing translation ? =
+
+Re-open the existing issue, and post your new files.
