@@ -35,7 +35,7 @@ The files to translate are:
 Please use the *View raw file* link (bottom right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
 
 As an extra, you can also translate market descriptions for the app:
-  * _Inspired by OSMTracker/Windows Mobile, allows you to track your journeys, mark waypoints (Tags, voicerec, photo) and export them in GPX format for later use with !OpenStreetMap tools like JOSM._ (Max 325 char., more if possible to allow me to add the changelog for last version)
+  * _Inspired by OSMTracker/Windows Mobile, allows you to track your journeys, mark waypoints (Tags, voicerec, photo) and export them in GPX format for later use with !OpenStreetMap tools like JOSM._ (Max 325 char., less if possible to allow me to add the changelog for last version)
   * _Track your journey with tags, voice & photo for importing into !OpenStreetMap !_ (Max 80 char.)
 
 = How to submit translated files ? =
