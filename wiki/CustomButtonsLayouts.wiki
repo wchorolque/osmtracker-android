@@ -41,7 +41,7 @@ Each XML file must use the following syntax:
 </layout>
 }}}
 
-Each layout file must start with the {{{<layouts>}}} root tag, and define one or more {{{<layout>}}}. At least one layout with the name *root* must be defined.
+<font color="red"><b>Important</b></font>: Each layout file must start with the {{{<layouts>}}} root tag, and define one or more {{{<layout>}}}. At least one layout with the name *root* must be defined.
 
 == <layout> ==
 
