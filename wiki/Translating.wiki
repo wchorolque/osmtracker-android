@@ -22,6 +22,7 @@ The following translations already exists. Please use the corresponding issues t
 || Italian || it || issue #20 ||
 || Dannish || da || issue #26 ||
 || German || de || issue #24 ||
+|| Spanish || sp || issue #31 ||
 
 
 = Which files must be translated ? =
