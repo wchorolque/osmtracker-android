@@ -23,7 +23,7 @@ The following translations already exists. Please use the corresponding issues t
 || Dannish || da || issue #26 ||
 || German || de || issue #24 ||
 || Spanish || sp || issue #31 ||
-
+|| Swedish || sv || issue #34 ||
 
 = Which files must be translated ? =
 
