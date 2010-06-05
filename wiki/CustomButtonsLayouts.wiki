@@ -24,7 +24,6 @@ http://osmtracker-android.googlecode.com/svn/trunk/wiki/images/custom-layout/lay
 Each XML file must use the following syntax:
 
 {{{
-<?xml version="1.0" encoding="utf-8"?>
 <layouts>
 
  <layout name="root">
@@ -41,7 +40,9 @@ Each XML file must use the following syntax:
 </layout>
 }}}
 
-<font color="red"><b>Important</b></font>: Each layout file must start with the {{{<layouts>}}} root tag, and define one or more {{{<layout>}}}. At least one layout with the name *root* must be defined.
+<font color="red"><b>Important</b></font>:
+  * Each layout file must start with the {{{<layouts>}}} root tag, and define one or more {{{<layout>}}}. At least one layout with the name *root* must be defined.
+  * Your file must not include XML header {{{<?xml version="1.0" encoding="utf-8"?>}}}. If you do so, please ensure that your file *doesn't* contains a [http://en.wikipedia.org/wiki/Byte_order_mark BOM]. The Android XML parser that cannot parse XML files with a header *and* a BOM (Or I didn't find how to do it !)
 
 == <layout> ==
 
