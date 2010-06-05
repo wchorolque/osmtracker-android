@@ -95,7 +95,6 @@ Some examples:
 = Full commented example =
 
 {{{
-<?xml version="1.0" encoding="utf-8"?>
 <layouts>
 
  <!-- Main layout, the first to be displayed to the user -->
