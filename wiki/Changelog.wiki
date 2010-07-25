@@ -2,9 +2,9 @@
 #labels Featured
 
   * *v0.4.2*
-    * Ability to use OpenStreetMap tiles as track display background (Needs data connection).
+    * Ability to use !OpenStreetMap tiles as track display background (Needs data connection).
     * Small bugfixes.
-    * New translations.
+    * New translations: SV, ES.
 
   * *v0.4.1*
     * Added some safeguard to prevent crash with photos on some devices.
