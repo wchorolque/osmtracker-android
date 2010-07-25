@@ -3,6 +3,7 @@
 
 =To do=
 
+  * Ability to deal with multiple track, and re-export previous tracks. It should help when app. crashes and data has not been exported, but is still in the SQlite DB. Will need kind of "track manager" screen.
   * Better landscape screen support. Application can go landscape, but some buttons should be redesigned to fit better in landscape.
   * Add a user notification while saving GPX track. Actually this is done in background without any indication for the user.
 
