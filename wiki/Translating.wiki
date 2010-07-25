@@ -21,6 +21,7 @@ The following translations already exists. Please use the corresponding issues t
 || *Language* || *Locale code ([http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes ISO 639-1])* || *Related issue* ||
 || Italian || it || issue #20 ||
 || Dannish || da || issue #26 ||
+|| French || fr || issue #47 ||
 || German || de || issue #24 ||
 || Russian || ru || issue #44 ||
 || Spanish || es || issue #31 ||
