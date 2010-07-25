@@ -1,6 +1,11 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.4.3*
+    * Ability to use OS clock instead of GPS ones, to help with some devices like Samsung Galaxy/Spica.
+    * Changed voice record and text note feature to record location when button is pressed, instead of at the end of the recording/text note.
+    * New translations: RU, FR.
+
   * *v0.4.2*
     * Ability to use !OpenStreetMap tiles as track display background (Needs data connection).
     * Small bugfixes.
