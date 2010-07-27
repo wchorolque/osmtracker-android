@@ -6,7 +6,7 @@
   * Photo taken with the application are limited to 512x384 size on Android 1.x devices.
     * It's due to a bug in the Android built-in camera application on which OSMTracker relies (http://code.google.com/p/android/issues/detail?id=1480). Seems to be fixed in Android 2.x. 
   * Supports only 3GPP format for voice recording.
-    * This is a limitation of Android SDK which is unable to record in mp3. 
+    * This is a limitation of Android SDK which is unable to record in mp3 (See http://developer.android.com/reference/android/media/MediaRecorder.OutputFormat.html). 
 
 =Previous limitations now fixed=
   * Doesn't support backgrounding: If you return to home screen, click on back, or receive a phone call, it will exit. Your track will still be saved, though.
