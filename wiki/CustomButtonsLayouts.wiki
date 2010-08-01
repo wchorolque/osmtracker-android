@@ -75,7 +75,7 @@ This tag represents a button, and uses the following syntax: {{{<button type="..
     * _page_ : To allow navigation between button pages.
       * A _page_ button must define a _targetlayout_ attribute, pointing to the layout to display. The value of _targetlayout_ must match the name of another layout.
 
-  * *label* is mandatory. It will be used as a label for the button, and as the waypoint tag name for tag buttons.
+  * *label* is mandatory for _tag_ and _page_ buttons. It will be used as a label for the button, and as the waypoint tag name for tag buttons. For special buttons like _voicerec_, _picture_ or _textnote_ the label is automatically retrieved from the application string resources and cannot be changed.
 
   * *icon* is optional, and can be used to specify an icon for the button.
     * The icon must be a relative filename with extension (Ex: "airport.png").
