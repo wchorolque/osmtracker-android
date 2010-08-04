@@ -10,6 +10,8 @@ To choose a layout, use the corresponding setting in the Settings screen.
 
 Each layout is defined in an XML file that should be in a {{{/layouts}}} directory inside the main OSMTracker storage dir. Each layout must be defined in XML, in UTF-8, and the filename should end with *.xml*.
 
+*Note:* You have to manually create the {{{layouts}}} directory on your SD card (it isn't created by OSMTracker) then drop your XML files in there.
+
 Ex (Storage dir. defined in settings is /osmtracker):
   * /sdcard/osmtracker/layouts/cycling.xml
   * /sdcard/osmtracker/layouts/trek.xml
