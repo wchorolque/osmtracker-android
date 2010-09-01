@@ -37,7 +37,7 @@ The files to translate are:
 
 Please use the *View raw file* link (bottom right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
 
-*Note*: You can use {{{default_buttons_layout.xml}}} as a custom layout for testing purposes, but you won't be able to see icons. This file is embedded in the application so it uses a special syntax to reference icon as internal resources, instead of external image files.
+*Note*: You can use {{{default_buttons_layout.xml}}} as a [CustomButtonsLayouts custom layout] for testing purposes, but you won't be able to see icons. This file is embedded in the application so it uses a special syntax to reference icon as internal resources, instead of external image files.
 
 As an extra, you can also translate market descriptions for the app:
   * _Inspired by OSMTracker/Windows Mobile, allows you to track your journeys, mark waypoints (Tags, voicerec, photo) and export them in GPX format for later use with !OpenStreetMap tools like JOSM._ (Max 325 char., less if possible to allow me to add the changelog for last version)
