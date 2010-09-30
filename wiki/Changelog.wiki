@@ -1,6 +1,11 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.5.0*
+    * Ability to work with multiple tracks.
+    * Minor bugfixes (screen orientation)
+    * Ability for layouts to use String resources as labels
+
   * *v0.4.3*
     * Ability to use OS clock instead of GPS ones, to help with some devices like Samsung Galaxy/Spica.
     * Changed voice record and text note feature to record location when button is pressed, instead of at the end of the recording/text note.
