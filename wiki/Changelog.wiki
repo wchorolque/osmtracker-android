@@ -3,8 +3,8 @@
 
   * *v0.5.0*
     * Ability to work with multiple tracks.
-    * Minor bugfixes (screen orientation)
-    * Ability for layouts to use String resources as labels
+    * Minor bugfixes (screen orientation).
+    * Ability for layouts to use String resources as labels.
 
   * *v0.4.3*
     * Ability to use OS clock instead of GPS ones, to help with some devices like Samsung Galaxy/Spica.
