@@ -5,8 +5,8 @@ Here are the steps to follow for releasing a new version:
 
   # Gather changelog by looking at previous SCM commits.
   # Update manifest (versionNumber, versionCode), check that debuggable attribute is false, and commit it.
-  # Tag version in SCM.
   # Export signed application package.
+  # Tag version in SCM.
   # Upload new APK into market.
     * Change screenshots if necessary.
   # Update app. market description to include changelog.
