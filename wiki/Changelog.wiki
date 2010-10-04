@@ -1,6 +1,11 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.5.1*
+    * Various bug fixes.
+    * Updated DE translation.
+    * Ability to display a previous track from the track list.
+
   * *v0.5.0*
     * Ability to work with multiple tracks.
     * Minor bugfixes (screen orientation).
