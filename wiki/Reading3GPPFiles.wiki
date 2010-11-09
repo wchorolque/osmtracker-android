@@ -18,6 +18,17 @@ After that you can play 3GP files with your preferred media player.
 
 == Linux ==
 
-TODO
+As suggested by misc2006, the following script can be used to convert 3GP into WAV and update the GPX file with new file names (assuming you've ffmpeg installed):
 
-  * Seems to be a way with [http://www.real.com/realplayer/linux RealPlayer] or certain gstreamer codecs...
+{{{
+#!/bin/bash
+for file in *.3gpp
+do
+  ffmpeg -y -i $file -f wav "$file.wav"
+  touch "$file.wav" -r $file
+done
+
+rename 's/\.3gpp//' *.wav
+
+sed 's/\.3gpp<\/link>/.wav<\/link>/' *.gpx > ready-to-map.gpx
+}}}
