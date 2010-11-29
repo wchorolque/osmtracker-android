@@ -83,7 +83,7 @@ This tag represents a button, and uses the following syntax: {{{<button type="..
     * The icon must be a relative filename with extension (Ex: "airport.png").
     * Icons should be in the same directory as the layout file, and in PNG format.
 
-  * *iconpos* is optional, and can be used to specify where the icon should be drawn on the button. Possible values are _auto,top,right,bottom_ or _left_.
+  * *iconpos* _(Since v0.5.2)_ is optional, and can be used to specify where the icon should be drawn on the button. Possible values are _auto,top,right,bottom_ or _left_.
     * This attribute helps to prevent text to be cut off with some layout/orientation combination. Please see issue #42 for details.
 
   * *targetlayout* is mandatory for a _page_ button. Its value must match an existing layout name.
