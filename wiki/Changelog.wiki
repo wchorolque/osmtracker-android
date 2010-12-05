@@ -1,6 +1,14 @@
 #summary Changelog
 #labels Featured
 
+  * *v0.5.2*
+    * Ability to rename tracks.
+    * New layout option to set icon position (Deal better with landscape layouts).
+    * Remembers zoom level in OSM view.
+    * GPX links syntax fix.
+    * New option to set GPS logging interval.
+    * Translations: FI, TH, DA.
+
   * *v0.5.1*
     * Various bug fixes.
     * Updated DE translation.
