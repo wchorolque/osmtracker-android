@@ -27,6 +27,7 @@ The following translations already exists. Please use the corresponding issues t
 || Russian || ru || issue #44 ||
 || Spanish || es || issue #31 ||
 || Swedish || sv || issue #34 ||
+|| Thai    || th || issue #81 ||
 
 = Which files must be translated ? =
 
