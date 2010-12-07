@@ -7,6 +7,9 @@
     * It's due to a bug in the Android built-in camera application on which OSMTracker relies (http://code.google.com/p/android/issues/detail?id=1480). Seems to be fixed in Android 2.x. 
   * Supports only 3GPP format for voice recording.
     * This is a limitation of Android SDK which is unable to record in mp3 (See http://developer.android.com/reference/android/media/MediaRecorder.OutputFormat.html). 
+  * GPS logging interval cannot be set.
+    * Due to the way it's implemented in Android, there is no suitable way for OSMTracker to get GPS updates at a specific interval. We're forced to use the shortest possible which seems to be every second on most devices.
+    * Technical reasons: Using the {{{minTime}}} parameter of {{{requestLocationUpdates()}}} causes the GPS to actually sleep for this time, instead of notifying of a location change every {{{minTime}}}. See issue #94 for the details.
 
 =Previous limitations now fixed=
   * Doesn't support backgrounding: If you return to home screen, click on back, or receive a phone call, it will exit. Your track will still be saved, though.
