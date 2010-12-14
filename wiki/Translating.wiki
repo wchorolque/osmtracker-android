@@ -25,6 +25,7 @@ The following translations already exists. Please use the corresponding issues t
 || French || fr || issue #47 ||
 || German || de || issue #24 ||
 || Russian || ru || issue #44 ||
+|| Slovak || sk || issue #103 ||
 || Spanish || es || issue #31 ||
 || Swedish || sv || issue #34 ||
 || Thai    || th || issue #81 ||
