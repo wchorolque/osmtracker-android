@@ -24,6 +24,7 @@ The following translations already exists. Please use the corresponding issues t
 || Finnish || fi || issue #88 ||
 || French || fr || issue #47 ||
 || German || de || issue #24 ||
+|| Portuguese || pt || issue #109 ||
 || Russian || ru || issue #44 ||
 || Slovak || sk || issue #103 ||
 || Spanish || es || issue #31 ||
