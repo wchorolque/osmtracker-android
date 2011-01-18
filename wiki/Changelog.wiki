@@ -4,6 +4,7 @@
   * _changes since last release (these changes will come with the next market release)_
     * Improved TextNote handling
     * fixed GPS logging interval handling
+    * Resuming of old tracks now possible
     * improved notification system
     * Screen can now automatically turn off (see preferences)
     * using JAR library of osmdroid for OSM background
