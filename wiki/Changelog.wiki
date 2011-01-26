@@ -1,16 +1,18 @@
 #summary Changelog
 #labels Featured
 
-  * _changes since last release (these changes will come with the next market release)_
-    * Improved TextNote handling
-    * fixed GPS logging interval handling
-    * Resuming of old tracks now possible
-    * improved notification system
-    * Screen can now automatically turn off (see preferences)
-    * using JAR library of osmdroid for OSM background
-    * minor performance improvements
-    * updated Translations: IT, DE
-    * new Translations: PT, SK
+  * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.5.3*
+    * Fixed screen rotation issues when entering a note.
+    * Fixed GPS logging interval handling.
+    * Fixed notification problems.
+    * Screen can now automatically be turned off.
+    * Ability to pause and resume tracking.
+    * Ability to stop tracking from the track list.
+    * Performance improvements on track list.
+    * New/updated translations: Slovak, Italian, German, Brazilian Pt.
 
   * *v0.5.2*
     * Ability to rename tracks.
