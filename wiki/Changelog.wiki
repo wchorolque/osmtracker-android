@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Voice recording can be started with dpad or headset button
 
   * *v0.5.3*
     * Fixed screen rotation issues when entering a note.
