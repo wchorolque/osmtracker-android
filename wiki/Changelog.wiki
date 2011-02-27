@@ -3,6 +3,7 @@
 
   * _Changes since last release (these changes will come with the next market release)_
     * Voice recording can be started with dpad or headset button
+    * Playing short beeps to indicate start and stop of a voice recording
 
   * *v0.5.3*
     * Fixed screen rotation issues when entering a note.
