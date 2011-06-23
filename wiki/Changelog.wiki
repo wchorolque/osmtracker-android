@@ -6,8 +6,9 @@
     * Voice recording can be started with dpad or headset button.
     * Playing short beeps to indicate start and stop of a voice recording.
     * Optimized PNGs icons file size.
-    * Updated translations: DE
+    * GPX export dramatic speed improvement.
     * Track recording now starts immediately after starting a new Track.
+    * Updated translations: DE.
 
   * *v0.5.3*
     * Fixed screen rotation issues when entering a note.
