@@ -8,7 +8,7 @@
     * Optimized PNGs icons file size.
     * GPX export dramatic speed improvement.
     * Track recording now starts immediately after starting a new Track.
-    * Updated translations: DE.
+    * Updated translations: DE, SV.
 
   * *v0.5.3*
     * Fixed screen rotation issues when entering a note.
