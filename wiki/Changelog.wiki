@@ -4,7 +4,7 @@
   * _Changes since last release (these changes will come with the next market release)_
     * Fixed bug when using internal memory for storage
     * Various minor improvements
-    * Update translation: SK
+    * Updated translations: SK, NN
 
   * *v0.5.5*
     * Fixed Market packaging issue (No source code change)
