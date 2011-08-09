@@ -2,22 +2,22 @@
 
 = Introduction =
 
-Since v0.4.0, OSMTracker can use user custom buttons layouts instead of default one. This allows the user to have the best button layout that suits his activities, and remove unused buttons.
+Since v0.4.0, OSMTracker can use custom buttons layouts in addition to the default one. This allows you to have the best button layout that suits your activities, and remove unused buttons.
 
 To choose a layout, use the corresponding setting in the Settings screen.
 
 = Layout files =
 
-Each layout is defined in an XML file that should be in a {{{/layouts}}} directory inside the main OSMTracker storage dir. Each layout must be defined in XML, in UTF-8, and the filename should end with *.xml*.
+Each layout is defined in a XML file that should be in a {{{/layouts}}} directory inside the main OSMTracker storage dir. Each layout must be defined in XML, in UTF-8, and the filename should end with *.xml*.
 
-*Note:* You have to manually create the {{{layouts}}} directory on your SD card (it isn't created by OSMTracker) then drop your XML files in there.
+*Note:* You have to manually create the {{{layouts}}} directory on your SD card (it isn't created by OSMTracker) then drop your XML files in it.
 
 Ex (Storage dir. defined in settings is /osmtracker):
   * /sdcard/osmtracker/layouts/cycling.xml
   * /sdcard/osmtracker/layouts/trek.xml
   * ...
 
-Each file matching these criteria will be listed as a potential layout in the settings screen. If the layout is invalid (incorrect XML syntax) the application will display a black screen instead of buttons. You can then go back to settings, and choose the default layout to have buttons visible again.
+Each file matching these criteria will be listed as a potential layout in the settings screen. If the layout is invalid (incorrect XML syntax) the application will display a black screen instead of buttons. You can then go back to settings, and choose the default layout to have the buttons displayed again.
 
 http://osmtracker-android.googlecode.com/svn/trunk/wiki/images/custom-layout/layout-list.png
 
@@ -102,7 +102,7 @@ Some examples:
 {{{
 <layouts>
 
- <!-- Main layout, the first to be displayed to the user -->
+ <!-- Main layout, the first to be displayed -->
  <layout name="root">
   <row>
    <!-- 3 special action buttons -->
