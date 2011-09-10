@@ -4,19 +4,19 @@
 
 Here is a quick guide to translating OSMTracker.
 
-Thanks to various contributors, OSMTracker has been translated in some languages. The application language will depend of the localization setting of your Android device.
+Thanks to various contributors, OSMTracker has been translated in several  languages. The application will rely on the localization setting of your Android device to choose which language to use.
 
 Translating the application means getting the original English XML files and replace each word by its translation in your favorite language.
 
 Please:
-  * Be sure to get the latest files from repository before adding/updating a translation.
-  * Be sure that you're editing your files in UTF-8 encoding.
+  * Ensure to get the latest files from the source repository before adding/updating a translation.
+  * Ensure that you're editing your files in UTF-8 encoding.
   * Use tabulations characters, instead of space for indenting.
 
 
 = Existing translations =
 
-The following translations already exists. Please use the corresponding issues to update them:
+The following translations already exists. Please reopen the corresponding issues to update them:
 
 || *Language* || *Locale code ([http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes ISO 639-1])* || *Related issue* ||
 || Italian || it || issue #20 ||
@@ -35,12 +35,12 @@ The following translations already exists. Please use the corresponding issues t
 = Which files must be translated ? =
 
 The files to translate are:
-  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/xml/default_buttons_layout.xml
-  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/values/strings-preferences.xml
-  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/values/waypoints.xml
-  * http://code.google.com/p/osmtracker-android/source/browse/trunk/res/values/strings.xml
+  * https://github.com/nguillaumin/osmtracker-android/blob/master/res/xml/default_buttons_layout.xml
+  * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/strings-preferences.xml
+  * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/waypoints.xml
+  * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/strings.xml
 
-Please use the *View raw file* link (bottom right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
+Please use the *raw* link (top right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
 
 *Note*: You can use {{{default_buttons_layout.xml}}} as a [CustomButtonsLayouts custom layout] for testing purposes, but you won't be able to see icons. This file is embedded in the application so it uses a special syntax to reference icon as internal resources, instead of external image files.
 
@@ -50,9 +50,9 @@ As an extra, you can also translate market descriptions for the app:
 
 = How to submit translated files ? =
 
-Open an issue, naming it "_(your language)_ translation" and attach your translated files.
+Open an issue, naming it "_(your language)_ translation" and attach your translated files. Alternatively, you can create a pull request on GitHub.
 For market text translations, simply copy/paste the translation into the issue, or put them in a text file and attach it along with the XML files.
 
 = How to update an existing translation ? =
 
-Re-open the existing issue, and post your new files.
+Re-open the existing issue, and post your new files, or create a pull request on GitHub.
