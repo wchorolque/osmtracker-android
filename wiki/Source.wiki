@@ -1,6 +1,6 @@
 #summary Where to get the source code
 
-=Get the source @ GitHub=
+=Get the source @ !GitHub=
 
 The source code is hosted at GitHub since Sept. 2011.
 
