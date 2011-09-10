@@ -150,6 +150,6 @@ Some examples:
 
 = See also =
 
-Please see also the [http://code.google.com/p/osmtracker-android/source/browse/trunk/res/xml/default_buttons_layout.xml default layout] provided with application sources.
+Please see also the [https://github.com/nguillaumin/osmtracker-android/blob/master/res/xml/default_buttons_layout.xml default layout] provided with application sources.
 
 (Please note that the "icon" attributes have no extension for this default layout because it's embedded in the application. User layouts *must* specify complete icon file names with extension).
