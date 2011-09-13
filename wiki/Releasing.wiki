@@ -3,7 +3,7 @@
 
 Here are the steps to follow for releasing a new version:
 
-  # Gather changelog by looking at previous SCM commits.
+  # Gather changelog by looking at the Changelog wiki page and previous SCM commits.
   # Update manifest (versionNumber, versionCode), check that debuggable attribute is false, and commit it.
   # Export signed application package.
   # Tag version in SCM.
@@ -15,3 +15,4 @@ Here are the steps to follow for releasing a new version:
   # Upload new APK into Google Code, using "featured" tag.
   # Update [Changelog] page.
   # Check on ToDo and [Limitations] pages in case some items have been addressed.
+  # Push commits to SCM.
