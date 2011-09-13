@@ -3,6 +3,7 @@
 
   * _Changes since last release (these changes will come with the next market release)_
     * Fixed bug when using internal memory for storage
+    * Added menu to delete all tracks at once
     * Various minor improvements
     * Updated translations: SK, NN
 
