@@ -2,6 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
 
   * *v0.5.6*
     * Fixed bug when using internal memory for storage
