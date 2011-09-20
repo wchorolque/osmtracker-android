@@ -24,6 +24,7 @@ The following translations already exists. Please reopen the corresponding issue
 || Finnish || fi || issue #88 ||
 || French || fr || issue #47 ||
 || German || de || issue #24 ||
+|| Hebrew || iw || [https://github.com/nguillaumin/osmtracker-android/pull/2 pull request #2] ||
 || Norwegian Nynorsk || nn || issue #125 ||
 || Portuguese || pt || issue #109 ||
 || Russian || ru || issue #44 ||
