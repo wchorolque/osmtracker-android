@@ -39,7 +39,7 @@ Each XML file must use the following syntax:
   ...
  </layout>
 
-</layout>
+</layouts>
 }}}
 
 <font color="red"><b>Important</b></font>:
