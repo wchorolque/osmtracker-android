@@ -2,6 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * Way points are now displayed on the map
     * Updated translations: IT, IW, FR, RU, NN, NB
 
   * *v0.5.6*
