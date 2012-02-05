@@ -2,17 +2,18 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * Way points are now displayed on the map
-    * Updated translations: IT, IW, FR, RU, NN, NB
+    * Way points are now displayed on the map.
+    * Minor bug fixes in GPX export.
+    * Updated translations: IT, IW, FR, RU, NN, NB.
 
   * *v0.5.6*
-    * Fixed bug when using internal memory for storage
-    * Added menu to delete all tracks at once
-    * Various minor improvements
-    * Updated translations: SK, NN
+    * Fixed bug when using internal memory for storage.
+    * Added menu to delete all tracks at once.
+    * Various minor improvements.
+    * Updated translations: SK, NN.
 
   * *v0.5.5*
-    * Fixed Market packaging issue (No source code change)
+    * Fixed Market packaging issue (No source code change).
 
   * *v0.5.4*
     * Now requires Android 1.6.
