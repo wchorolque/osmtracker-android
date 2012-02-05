@@ -8,7 +8,6 @@ Here are the steps to follow for releasing a new version:
   # Export signed application package.
   # Tag version in SCM.
     * `git tag -a 1.2.3`
-    * `git push origin 1.2.3`
   # Upload new APK into market.
     * Change screenshots if necessary.
   # Update app. market description to include changelog.
@@ -17,4 +16,4 @@ Here are the steps to follow for releasing a new version:
   # Upload new APK into Google Code, using "featured" tag.
   # Update [Changelog] page.
   # Check on ToDo and [Limitations] pages in case some items have been addressed.
-  # Push commits + tag to SCM.
+  # Push commits + tag to SCM (For tag: `git push origin 1.2.3`)
