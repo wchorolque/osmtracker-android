@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Updated translations: NO, PL.
 
   * *v0.5.7*
     * Way points are now displayed on the map.
