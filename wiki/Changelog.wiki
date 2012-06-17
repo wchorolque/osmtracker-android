@@ -3,7 +3,7 @@
 
   * _Changes since last release (these changes will come with the next market release)_
     * Minor layout fixes and improvements
-    * OSM background map position is now saved and restored.
+    * Minor OSM background map improvements    
     * Updated translations: NO, PL, RU.
 
   * *v0.5.7*
