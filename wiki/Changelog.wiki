@@ -3,7 +3,8 @@
 
   * _Changes since last release (these changes will come with the next market release)_
     * Minor layout fixes and improvements
-    * Minor OSM background map improvements    
+    * Minor OSM background map improvements
+    * Ensure GPX format is schema-compliant
     * Updated translations: NO, PL, RU, JA.
 
   * *v0.5.7*
