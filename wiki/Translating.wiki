@@ -25,6 +25,7 @@ The following translations already exists. Please reopen the corresponding issue
 || French || fr || issue #47 ||
 || German || de || issue #24 ||
 || Hebrew || iw || [https://github.com/nguillaumin/osmtracker-android/pull/2 pull request #2] ||
+|| Japanese || ja || issue #174 ||
 || Norwegian || no || Copied from nb ||
 || Norwegian Nynorsk || nn || issue #125 ||
 || Norwegian Bokmål || nb || [https://github.com/nguillaumin/osmtracker-android/pull/4 pull request #4] ||
