@@ -4,7 +4,7 @@
   * _Changes since last release (these changes will come with the next market release)_
     * Minor layout fixes and improvements
     * Minor OSM background map improvements    
-    * Updated translations: NO, PL, RU.
+    * Updated translations: NO, PL, RU, JA.
 
   * *v0.5.7*
     * Way points are now displayed on the map.
