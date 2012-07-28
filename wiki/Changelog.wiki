@@ -2,11 +2,13 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * Now requires Android 2.1.
+    * Possible fix for background tracking unexpectedly stopping on Android 2.x
     * Track list now shows the most recent first.
-    * Track details can now show way points list.
+    * Access way points list from track details screen.
     * Minor layout fixes and improvements.
     * Minor OSM background map improvements.
-    * Ensure GPX format is schema-compliant
+    * Ensure GPX files are XML schema-compliant
     * Updated translations: NO, PL, RU, JA, FR.
 
   * *v0.5.7*
