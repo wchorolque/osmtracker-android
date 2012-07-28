@@ -2,6 +2,9 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.5.8*
     * Now requires Android 2.1.
     * Fix for background tracking unexpectedly stopping and parts of track lost for Android 2.x and after.
     * Track list now shows the most recent first.
