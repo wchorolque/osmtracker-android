@@ -17,3 +17,4 @@ Here are the steps to follow for releasing a new version:
   # Update [Changelog] page.
   # Check on ToDo and [Limitations] pages in case some items have been addressed.
   # Push commits + tag to SCM (For tag: `git push origin 1.2.3`)
+  # Go to the pub
