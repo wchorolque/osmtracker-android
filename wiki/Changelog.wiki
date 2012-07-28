@@ -3,7 +3,7 @@
 
   * _Changes since last release (these changes will come with the next market release)_
     * Now requires Android 2.1.
-    * Possible fix for background tracking unexpectedly stopping on Android 2.x
+    * Fix for background tracking unexpectedly stopping and parts of track lost.
     * Track list now shows the most recent first.
     * Access way points list from track details screen.
     * Minor layout fixes and improvements.
