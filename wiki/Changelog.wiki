@@ -5,7 +5,7 @@
     * Minor layout fixes and improvements
     * Minor OSM background map improvements
     * Ensure GPX format is schema-compliant
-    * Updated translations: NO, PL, RU, JA.
+    * Updated translations: NO, PL, RU, JA, FR.
 
   * *v0.5.7*
     * Way points are now displayed on the map.
