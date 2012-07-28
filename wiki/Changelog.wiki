@@ -2,6 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * Track list now shows the most recent first.
     * Track details can now show way points list.
     * Minor layout fixes and improvements.
     * Minor OSM background map improvements.
