@@ -44,6 +44,8 @@ The files to translate are:
   * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/strings-preferences.xml
   * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/waypoints.xml
   * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/strings.xml
+  * https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/accessibility.xml
+  * And optionally: https://github.com/nguillaumin/osmtracker-android/blob/master/res/values/renderers.xml
 
 Please use the *raw* link (top right) to get the files, instead of copy/paste. It will preserve special chars and tabulations.
 
