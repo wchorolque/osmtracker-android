@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Fix issue with GPX files invisible on some phones (Galaxy Nexus)
 
   * *v0.5.8*
     * Now requires Android 2.1.
