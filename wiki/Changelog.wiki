@@ -5,7 +5,7 @@
     * ...
 
   * *v0.6.0*
-    * Upload tracks to OpenStreetMap.
+    * Upload tracks to !OpenStreetMap.
     * Mass GPX-export of tracks.
     * Fix issue with GPX files invisible on some phones (Galaxy Nexus).
 
