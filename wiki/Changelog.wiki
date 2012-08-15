@@ -8,8 +8,8 @@
     * Fixed crash on track list to do with status icons.
     * Enabled pinch to zoom on map view.
     * Auto-zoom to show complete track in map view for inactive tracks.
-    * UI updated for Android 3.0 and more
-    * Updated translations: DA
+    * UI updated for Android 3.0 and more.
+    * Updated translations: DA.
 
   * *v0.6.0*
     * Upload tracks to !OpenStreetMap.
