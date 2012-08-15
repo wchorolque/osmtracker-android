@@ -2,7 +2,9 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Fixed crash on track list to do with status icons.
+    * Enabled pinch to zoom on map view.
+    * Auto-zoom to show complete track in map view for inactive tracks.
 
   * *v0.6.0*
     * Upload tracks to !OpenStreetMap.
