@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Fixed menu not appearing on Android 3+ devices
 
   * *v0.6.1*
     * Fixed crash on track list to do with status icons.
