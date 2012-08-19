@@ -3,6 +3,7 @@
 
   * _Changes since last release (these changes will come with the next market release)_
     * Fix issue with non-ASCII characters in OSM upload.
+    * Use proper filename when uploading.
 
   * *v0.6.2*
     * Fixed menu not appearing on Android 3+ devices.
