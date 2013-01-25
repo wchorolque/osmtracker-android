@@ -4,7 +4,7 @@
 Here are the steps to follow for releasing a new version:
 
   # Gather changelog by looking at the Changelog wiki page and previous SCM commits.
-  # Pull latest translations from Transifex: `tx pull`
+  # Pull latest translations from Transifex: `tx pull -a`
   # Update manifest (versionNumber, versionCode), check that debuggable attribute is false, and commit it.
   # Export signed application package *using `ant release`*.
   # Tag version in SCM.
