@@ -2,8 +2,12 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.6.4*
     * Allow installation on SD Card.
     * Updated icons.
+    * Updated translations.
 
   * *v0.6.3*
     * Fix OSM upload on Android 3 and more.
