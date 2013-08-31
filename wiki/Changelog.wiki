@@ -4,6 +4,7 @@
   * _Changes since last release (these changes will come with the next market release)_
     * Ability to choose picture from gallery thanks to jakobmoellers.
     * Ability to chose tile provider thanks to jakobmoellers.
+    * Export speed information in GPX thanks to andyhelp.
 
   * *v0.6.4*
     * Allow installation on SD Card.
