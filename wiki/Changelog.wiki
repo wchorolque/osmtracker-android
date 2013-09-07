@@ -9,6 +9,7 @@
     * Ability to chose tile provider thanks to jakobmoellers.
     * Export speed information in GPX thanks to andyhelp.
     * Choose map background on first use thanks to jdmonin.
+    * Updated translations.
 
   * *v0.6.4*
     * Allow installation on SD Card.
