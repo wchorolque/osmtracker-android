@@ -2,6 +2,9 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.6.5*
     * Ability to choose picture from gallery thanks to jakobmoellers.
     * Ability to chose tile provider thanks to jakobmoellers.
     * Export speed information in GPX thanks to andyhelp.
