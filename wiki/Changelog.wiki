@@ -2,6 +2,9 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.6.6*
     * Fix issue with camera photos not saved in application folder.
     * Copy gallery chosen picture into application folder.
     * Added preference for default picture source (Camera / Gallery / Ask).
