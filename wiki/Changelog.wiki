@@ -8,6 +8,7 @@
     * Fix issue with camera photos not saved in application folder.
     * Copy gallery chosen picture into application folder.
     * Added preference for default picture source (Camera / Gallery / Ask).
+    * Updated translations.
 
   * *v0.6.5*
     * Ability to choose picture from gallery thanks to jakobmoellers.
