@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Fix issue with photos not saved in application folder.
 
   * *v0.6.5*
     * Ability to choose picture from gallery thanks to jakobmoellers.
