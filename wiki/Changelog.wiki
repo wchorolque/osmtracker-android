@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Record compass heading thanks to Christoph Gohle.
 
   * *v0.6.6*
     * Fix issue with camera photos not saved in application folder.
