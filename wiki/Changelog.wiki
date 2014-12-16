@@ -2,7 +2,7 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
-    * ...
+    * Start audio recording with the hardware media button thanks to zdila.
 
   * *v0.6.7*
     * Possible fix for GPX export on Android 5 (untested).
