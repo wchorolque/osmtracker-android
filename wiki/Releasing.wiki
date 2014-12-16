@@ -13,8 +13,7 @@ Here are the steps to follow for releasing a new version:
     * Change screenshots if necessary.
   # Update app. market description to include changelog.
   # Publish update.
-  # Remove previous "featured" tag on latest Google Code download.
-  # Upload new APK into Google Code, using "featured" tag.
+  # Upload APK to the public Google Drive folder.
   # Update [Changelog] page.
   # Check on ToDo and [Limitations] pages in case some items have been addressed.
   # Push commits + tag to SCM (For tag: `git push origin 1.2.3`)
