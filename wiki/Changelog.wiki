@@ -2,6 +2,10 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.6.7*
+    * Possible fix for GPX export on Android 5 (untested).
     * Record compass heading thanks to Christoph Gohle.
 
   * *v0.6.6*
