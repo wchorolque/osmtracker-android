@@ -2,9 +2,13 @@
 #labels Featured
 
   * _Changes since last release (these changes will come with the next market release)_
+    * ...
+
+  * *v0.6.8*
     * Start audio recording with the hardware media button thanks to zdila.
     * Fix Mapnik display.
     * Fix progress dialog on bulk GPX export.
+    * Updated translations.
 
   * *v0.6.7*
     * Possible fix for GPX export on Android 5 (untested).
