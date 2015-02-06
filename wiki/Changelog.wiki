@@ -4,6 +4,10 @@
   * _Changes since last release (these changes will come with the next market release)_
     * ...
 
+  * *v0.6.9*
+    * Fix issue with app. priority when using hardware media button.
+    * Updated translations
+
   * *v0.6.8*
     * Start audio recording with the hardware media button thanks to zdila.
     * Fix Mapnik display.
